@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hermes News - Notícias Rápidas e Confiáveis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="hermeslogo.png" alt="Hermes News Logo">
+                <h1>HERMES <span>NEWS</span></h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Política</a></li>
+                    <li><a href="#">Economia</a></li>
+                    <li><a href="#">Tecnologia</a></li>
+                    <li><a href="#">Cultura</a></li>
+                    <li><a href="#">Esportes</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <button class="subscribe-btn">Assine</button>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="breaking-news">
+            <div class="breaking-tag">
+                <span>ÚLTIMAS NOTÍCIAS</span>
+            </div>
+            <div class="breaking-content">
+                <h2>Título da principal notícia do momento com destaque especial</h2>
+                <p>Resumo breve da notícia principal para chamar atenção dos leitores...</p>
+                <a href="#" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <section class="featured-news">
+            <article class="featured-card">
+                <div class="card-image">
+                    <img src="images/news1.jpg" alt="Notícia 1">
+                    <span class="category-tag politics">Política</span>
+                </div>
+                <div class="card-content">
+                    <h3>Título da notícia em destaque com até duas linhas</h3>
+                    <p class="excerpt">Breve resumo da notícia com no máximo três linhas para manter o interesse...</p>
+                    <div class="card-footer">
+                        <span class="author">Por João Silva</span>
+                        <span class="time">2 horas atrás</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="featured-card">
+                <div class="card-image">
+                    <img src="images/news2.jpg" alt="Notícia 2">
+                    <span class="category-tag economy">Economia</span>
+                </div>
+                <div class="card-content">
+                    <h3>Outro título de notícia importante com destaque</h3>
+                    <p class="excerpt">Outro resumo breve para manter o layout consistente e profissional...</p>
+                    <div class="card-footer">
+                        <span class="author">Por Maria Souza</span>
+                        <span class="time">4 horas atrás</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="featured-card">
+                <div class="card-image">
+                    <img src="images/news3.jpg" alt="Notícia 3">
+                    <span class="category-tag technology">Tecnologia</span>
+                </div>
+                <div class="card-content">
+                    <h3>Título sobre tecnologia que chama atenção</h3>
+                    <p class="excerpt">Novidades do mundo tech resumidas para os leitores...</p>
+                    <div class="card-footer">
+                        <span class="author">Por Carlos Oliveira</span>
+                        <span class="time">6 horas atrás</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="news-grid">
+            <h2 class="section-title">Notícias Recentes</h2>
+            <div class="grid-container">
+                <!-- Notícias serão carregadas via JavaScript -->
+            </div>
+            <button class="load-more">Carregar mais notícias</button>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-container">
+                <h2>Receba as notícias diretamente</h2>
+                <p>Assine nossa newsletter e fique atualizado com as principais notícias</p>
+                <form>
+                    <input type="email" placeholder="Seu melhor e-mail">
+                    <button type="submit">Assinar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="hermeslogobranco.png" alt="Hermes News Logo">
+                <h2>HERMES <span>NEWS</span></h2>
+                <p>Notícias rápidas e confiáveis, como as asas de Hermes.</p>
+            </div>
+            <div class="footer-links">
+                <div class="links-column">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li><a href="#">Política</a></li>
+                        <li><a href="#">Economia</a></li>
+                        <li><a href="#">Tecnologia</a></li>
+                        <li><a href="#">Cultura</a></li>
+                        <li><a href="#">Esportes</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <h3>Sobre</h3>
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Nossa equipe</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Trabalhe conosco</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Hermes News. Todos os direitos reservados.</p>
+            <div class="legal-links">
+                <a href="#">Termos de uso</a>
+                <a href="#">Política de privacidade</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trump e Arábia Saudita Fortalecem Laços com Acordo de Defesa Bilionário - Hermes News</title>
+    <style>
+        /* Estilos globais */
+        :root {
+            --primary-dark: #0A2463;
+            --primary-light: #3E5C76;
+            --accent-gold: #D1B000;
+            --white: #FFFFFF;
+            --light-gray: #F5F5F5;
+            --medium-gray: #E0E0E0;
+            --dark-gray: #333333;
+            --politics: #E63946;
+            --economy: #457B9D;
+            --technology: #1D3557;
+            --culture: #A8DADC;
+            --sports: #588157;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--dark-gray);
+            background-color: var(--white);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Header */
+        .main-header {
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .logo h1 {
+            font-size: 1.8rem;
+            color: var(--primary-dark);
+        }
+
+        .logo h1 span {
+            color: var(--accent-gold);
+        }
+
+        .main-nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .main-nav a {
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: color 0.3s;
+        }
+
+        .main-nav a:hover {
+            color: var(--accent-gold);
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .search-container i {
+            cursor: pointer;
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+        }
+
+        .subscribe-btn {
+            background-color: var(--primary-dark);
+            color: var(--white);
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .subscribe-btn:hover {
+            background-color: var(--primary-light);
+            transform: translateY(-2px);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Conteúdo da Notícia */
+        .news-article {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 5%;
+        }
+
+        .article-header {
+            margin-bottom: 2rem;
+        }
+
+        .article-category {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--white);
+            margin-bottom: 1rem;
+        }
+
+        .politics {
+            background-color: var(--politics);
+        }
+
+        .economy {
+            background-color: var(--economy);
+        }
+
+        .technology {
+            background-color: var(--technology);
+        }
+
+        .culture {
+            background-color: var(--culture);
+            color: var(--dark-gray);
+        }
+
+        .sports {
+            background-color: var(--sports);
+        }
+
+        .article-title {
+            font-size: 2.2rem;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+            color: var(--primary-dark);
+        }
+
+        .article-subtitle {
+            font-size: 1.2rem;
+            color: var(--primary-light);
+            margin-bottom: 1rem;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-light);
+            font-size: 0.9rem;
+        }
+
+        .article-author {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .author-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .article-date::before {
+            content: "•";
+            margin-right: 0.5rem;
+        }
+
+        .article-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+
+        .article-content {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .article-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .article-content h2 {
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem;
+            color: var(--primary-dark);
+        }
+
+        .article-content h3 {
+            font-size: 1.4rem;
+            margin: 1.5rem 0 1rem;
+            color: var(--primary-dark);
+        }
+
+        .article-content blockquote {
+            border-left: 4px solid var(--accent-gold);
+            padding-left: 1.5rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: var(--primary-light);
+        }
+
+        .article-content img {
+            margin: 1.5rem 0;
+            border-radius: 8px;
+        }
+
+        .article-content ul {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+
+        .article-content li {
+            margin-bottom: 0.5rem;
+        }
+
+        .article-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 2rem 0;
+        }
+
+        .tag {
+            padding: 0.3rem 0.8rem;
+            background-color: var(--light-gray);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            transition: all 0.3s;
+        }
+
+        .tag:hover {
+            background-color: var(--accent-gold);
+            color: var(--primary-dark);
+        }
+
+        .article-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--medium-gray);
+            border-bottom: 1px solid var(--medium-gray);
+            margin: 2rem 0;
+        }
+
+        .social-share {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .share-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--light-gray);
+            transition: all 0.3s;
+        }
+
+        .share-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .facebook:hover {
+            background-color: #3b5998;
+            color: white;
+        }
+
+        .twitter:hover {
+            background-color: #1DA1F2;
+            color: white;
+        }
+
+        .linkedin:hover {
+            background-color: #0077B5;
+            color: white;
+        }
+
+        .whatsapp:hover {
+            background-color: #25D366;
+            color: white;
+        }
+
+        .article-navigation {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .nav-btn {
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--medium-gray);
+            border-radius: 4px;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+
+        .nav-btn:hover {
+            background-color: var(--primary-dark);
+            color: var(--white);
+            border-color: var(--primary-dark);
+        }
+
+        /* Notícias Relacionadas */
+        .related-news {
+            max-width: 1400px;
+            margin: 3rem auto;
+            padding: 0 5%;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+            color: var(--primary-dark);
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background-color: var(--accent-gold);
+        }
+
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .related-card {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .related-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .related-image {
+            height: 180px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .related-content {
+            padding: 1.2rem;
+        }
+
+        .related-title {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+
+        .related-excerpt {
+            font-size: 0.9rem;
+            color: var(--primary-light);
+            margin-bottom: 1rem;
+        }
+
+        .related-meta {
+            font-size: 0.8rem;
+            color: var(--primary-light);
+        }
+
+        /* Newsletter */
+        .newsletter {
+            background-color: var(--primary-dark);
+            color: var(--white);
+            padding: 3rem 5%;
+            margin-top: 3rem;
+        }
+
+        .newsletter-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .newsletter h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .newsletter p {
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .newsletter form {
+            display: flex;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .newsletter input {
+            flex: 1;
+            padding: 0.8rem 1rem;
+            border: none;
+            border-radius: 4px 0 0 4px;
+            font-family: inherit;
+        }
+
+        .newsletter button {
+            padding: 0 1.5rem;
+            background-color: var(--accent-gold);
+            color: var(--primary-dark);
+            border: none;
+            border-radius: 0 4px 4px 0;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .newsletter button:hover {
+            background-color: #E6C200;
+        }
+
+        /* Footer */
+        .main-footer {
+            background-color: var(--primary-dark);
+            color: var(--white);
+            padding-top: 3rem;
+        }
+
+        .footer-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 5%;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 3rem;
+        }
+
+        .footer-logo {
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-logo img {
+            height: 50px;
+            margin-bottom: 1rem;
+        }
+
+        .footer-logo h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-logo h2 span {
+            color: var(--accent-gold);
+        }
+
+        .footer-logo p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .footer-links {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .links-column h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+
+        .links-column h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30px;
+            height: 2px;
+            background-color: var(--accent-gold);
+        }
+
+        .links-column ul {
+            list-style: none;
+        }
+
+        .links-column li {
+            margin-bottom: 0.8rem;
+        }
+
+        .links-column a {
+            font-size: 0.9rem;
+            transition: color 0.3s;
+            opacity: 0.8;
+        }
+
+        .links-column a:hover {
+            color: var(--accent-gold);
+            opacity: 1;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-icons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+        }
+
+        .social-icons a:hover {
+            background-color: var(--accent-gold);
+            color: var(--primary-dark);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1.5rem 5%;
+            margin-top: 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+
+        .legal-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .legal-links a {
+            transition: color 0.3s;
+        }
+
+        .legal-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        /* Responsividade */
+        @media (max-width: 1024px) {
+            .main-nav ul {
+                gap: 1.5rem;
+            }
+            
+            .footer-container {
+                grid-template-columns: 1fr 1.5fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-container {
+                padding: 1rem;
+            }
+            
+            .main-nav {
+                display: none;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .article-title {
+                font-size: 1.8rem;
+            }
+
+            .article-subtitle {
+                font-size: 1rem;
+            }
+            
+            .article-image {
+                height: 300px;
+            }
+            
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .footer-links {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo h1 {
+                font-size: 1.5rem;
+            }
+            
+            .article-title {
+                font-size: 1.5rem;
+            }
+
+            .article-subtitle {
+                font-size: 0.9rem;
+            }
+            
+            .article-meta {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+            
+            .article-date::before {
+                display: none;
+            }
+            
+            .article-image {
+                height: 200px;
+            }
+            
+            .article-actions {
+                flex-direction: column;
+                gap: 1rem;
+                align-items: flex-start;
+            }
+            
+            .newsletter form {
+                flex-direction: column;
+            }
+            
+            .newsletter input {
+                border-radius: 4px;
+                margin-bottom: 0.5rem;
+            }
+            
+            .newsletter button {
+                border-radius: 4px;
+                padding: 0.8rem;
+            }
+            
+            .footer-links {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-bottom {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+            
+            .legal-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/hermes-logo.svg" alt="Hermes News Logo">
+                <h1>HERMES <span>NEWS</span></h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Política</a></li>
+                    <li><a href="#">Economia</a></li>
+                    <li><a href="#">Tecnologia</a></li>
+                    <li><a href="#">Cultura</a></li>
+                    <li><a href="#">Esportes</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <button class="subscribe-btn">Assine</button>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article class="news-article">
+            <header class="article-header">
+                <span class="article-category politics">Política</span>
+                <h1 class="article-title">Trump e Arábia Saudita Fortalecem Laços com Acordo de Defesa Bilionário em Meio a Tensões Globais</h1>
+                <p class="article-subtitle">Histórico acordo de US$ 142 bilhões assinado em Riade sinaliza reconfiguração nas relações EUA-Arábia Saudita, mesmo com a guerra em Gaza e o legado do caso Khashoggi como pano de fundo.</p>
+                <div class="article-meta">
+                    <div class="article-author">
+                        <img src="images/author-avatar.jpg" alt="Repórter Hermes News" class="author-avatar">
+                        <span>Hermes News</span>
+                    </div>
+                    <span class="article-date">Publicado em 13 de maio de 2025</span>
+                    <span class="article-date">Atualizado há 2 horas</span>
+                </div>
+                <img src="images/trump-mbs.jpg" alt="Trump e Mohammed bin Salman assinando acordo" class="article-image">
+            </header>
+
+            <div class="article-content">
+                <p>RIADE, Arábia Saudita – Em um movimento que redefine as alianças estratégicas no Oriente Médio, o presidente dos Estados Unidos, Donald Trump, e o príncipe herdeiro da Arábia Saudita, Mohammed bin Salman, selaram nesta terça-feira (13) um monumental acordo de defesa avaliado em US$ 142 bilhões. A Casa Branca classificou o pacto como "o maior acordo de venda de defesa da história", sublinhando uma nova fase na complexa relação entre Washington e Riade.</p>
+                
+                <p>A assinatura ocorreu durante a visita de Trump à capital saudita, um evento acompanhado de perto por líderes globais e analistas internacionais. Segundo correspondentes presentes no local, o acordo não é apenas uma transação comercial, mas uma medida da dinâmica mutável entre as duas nações.</p>
+                
+                <h2>Contexto Histórico</h2>
+                
+                <p>Historicamente, os acordos de armamentos têm sido um pilar da parceria estratégica EUA-Arábia Saudita. Contudo, essa relação enfrentou turbulências significativas nos últimos anos. Em 2021, a administração Biden suspendeu a venda de armas ofensivas a Riade devido ao seu papel na guerra devastadora no Iêmen. Além disso, o assassinato do jornalista saudita Jamal Khashoggi em 2018, que um relatório da inteligência americana concluiu ter sido aprovado pelo príncipe Mohammed bin Salman – acusação que ele nega veementemente –, abalou profundamente a confiança mútua.</p>
+                
+                <blockquote>
+                    "Esta não é apenas uma transação comercial, mas uma reafirmação estratégica da parceria entre nossos países em um momento de grande instabilidade regional."
+                    <cite>— Declaração da Casa Branca</cite>
+                </blockquote>
+                
+                <h2>Reaproximação Recente</h2>
+                
+                <p>Apesar das tensões, as relações foram gradualmente se recompondo, mesmo sob a presidência de Biden, que durante sua campanha em 2019 havia prometido transformar o reino em um "estado pária". A venda de armas ofensivas foi retomada no ano passado, e havia um esforço para finalizar um pacto de defesa mais amplo, que incluiria a normalização das relações entre a Arábia Saudita e Israel.</p>
+                
+                <p>No entanto, com a intensificação do conflito em Gaza, a normalização com Israel parece ter sido temporariamente deixada de lado. Ainda assim, o clima durante a assinatura do acordo foi de aparente cordialidade. O presidente Trump foi ouvido dizendo ao príncipe herdeiro: "Eu realmente acredito que gostamos muito um do outro."</p>
+                
+                <h2>Implicações Geopolíticas</h2>
+                
+                <p>Este acordo bilionário ocorre em um momento de grande instabilidade geopolítica e levanta questões sobre o futuro do equilíbrio de poder no Oriente Médio e o papel dos Estados Unidos na região. A expectativa é que o fornecimento de equipamentos militares de ponta fortaleça a capacidade de defesa saudita, ao mesmo tempo em que solidifica a influência americana em uma área vital para os interesses globais.</p>
+                
+                <p>Analistas apontam que, embora o acordo possa ser visto como um passo pragmático para ambas as nações, ele também pode intensificar as preocupações sobre a corrida armamentista na região e o impacto nos direitos humanos, dada a controversa trajetória recente da Arábia Saudita.</p>
+                
+                <div class="article-tags">
+                    <a href="#" class="tag">EUA</a>
+                    <a href="#" class="tag">Arábia Saudita</a>
+                    <a href="#" class="tag">Acordo de Defesa</a>
+                    <a href="#" class="tag">Donald Trump</a>
+                    <a href="#" class="tag">Geopolítica</a>
+                </div>
+                
+                <div class="article-actions">
+                    <div class="social-share">
+                        <a href="#" class="share-btn facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="share-btn twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="share-btn linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="share-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <div class="article-navigation">
+                        <a href="#" class="nav-btn"><i class="fas fa-arrow-left"></i> Anterior</a>
+                        <a href="#" class="nav-btn">Próxima <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <section class="related-news">
+            <h2 class="section-title">Notícias Relacionadas</h2>
+            <div class="related-grid">
+                <article class="related-card">
+                    <img src="images/related1.jpg" alt="Notícia relacionada" class="related-image">
+                    <div class="related-content">
+                        <h3 class="related-title">Conflito em Gaza: como o acordo EUA-Arábia Saudita pode influenciar as negociações</h3>
+                        <p class="related-excerpt">Especialistas analisam o impacto do novo pacto de defesa no processo de paz...</p>
+                        <div class="related-meta">12 de maio de 2025</div>
+                    </div>
+                </article>
+                <article class="related-card">
+                    <img src="images/related2.jpg" alt="Notícia relacionada" class="related-image">
+                    <div class="related-content">
+                        <h3 class="related-title">O que está por trás da reaproximação entre EUA e Arábia Saudita</h3>
+                        <p class="related-excerpt">Análise dos interesses estratégicos que levaram ao acordo histórico...</p>
+                        <div class="related-meta">10 de maio de 2025</div>
+                    </div>
+                </article>
+                <article class="related-card">
+                    <img src="images/related3.jpg" alt="Notícia relacionada" class="related-image">
+                    <div class="related-content">
+                        <h3 class="related-title">Como o Oriente Médio está se reconfigurando após novos acordos de defesa</h3>
+                        <p class="related-excerpt">Mudanças no equilíbrio de poder regional e implicações para a segurança global...</p>
+                        <div class="related-meta">8 de maio de 2025</div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-container">
+                <h2>Receba as notícias diretamente</h2>
+                <p>Assine nossa newsletter e fique atualizado com as principais notícias</p>
+                <form>
+                    <input type="email" placeholder="Seu melhor e-mail">
+                    <button type="submit">Assinar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="images/hermes-logo-white.svg" alt="Hermes News Logo">
+                <h2>HERMES <span>NEWS</span></h2>
+                <p>Notícias rápidas e confiáveis, como as asas de Hermes.</p>
+            </div>
+            <div class="footer-links">
+                <div class="links-column">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li><a href="#">Política</a></li>
+                        <li><a href="#">Economia</a></li>
+                        <li><a href="#">Tecnologia</a></li>
+                        <li><a href="#">Cultura</a></li>
+                        <li><a href="#">Esportes</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <h3>Sobre</h3>
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Nossa equipe</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Trabalhe conosco</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Hermes News. Todos os direitos reservados.</p>
+            <div class="legal-links">
+                <a href="#">Termos de uso</a>
+                <a href="#">Política de privacidade</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Menu mobile
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const mainNav = document.querySelector('.main-nav');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                mainNav.style.display = mainNav.style.display === 'block' ? 'none' : 'block';
+            });
+            
+            // Fechar menu ao clicar em um link
+            document.querySelectorAll('.main-nav a').forEach(link => {
+                link.addEventListener('click', function() {
+                    if (window.innerWidth <= 768) {
+                        mainNav.style.display = 'none';
+                    }
+                });
+            });
+            
+            // Compartilhamento social
+            document.querySelectorAll('.share-btn').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const url = window.location.href;
+                    const title = document.querySelector('.article-title').textContent;
+                    
+                    if (this.classList.contains('facebook')) {
+                        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+                    } else if (this.classList.contains('twitter')) {
+                        window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`, '_blank');
+                    } else if (this.classList.contains('linkedin')) {
+                        window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}`, '_blank');
+                    } else if (this.classList.contains('whatsapp')) {
+                        window.open(`https://wa.me/?text=${encodeURIComponent(`${title} ${url}`)}`, '_blank');
+                    }
+                });
+            });
+            
+            // Simulação de carregamento de notícias relacionadas
+            // Na prática, você buscaria de uma API
+            const relatedGrid = document.querySelector('.related-grid');
+            
+            // Dados simulados
+            const relatedNews = [
+                {
+                    title: "O papel da Rússia e China no Oriente Médio após novo acordo EUA-Arábia Saudita",
+                    image: "images/related4.jpg",
+                    excerpt: "Como as potências rivais podem reagir ao fortalecimento da parceria Washington-Riade...",
+                    date: "5 de maio de 2025"
+                },
+                {
+                    title: "O que o acordo de defesa significa para o preço do petróleo",
+                    image: "images/related5.jpg",
+                    excerpt: "Analistas projetam impactos na produção e preços globais de energia...",
+                    date: "3 de maio de 2025"
+                },
+                {
+                    title: "Reações internacionais ao acordo de US$ 142 bilhões",
+                    image: "images/related6.jpg",
+                    excerpt: "Como países da região e aliados dos EUA estão respondendo ao novo pacto...",
+                    date: "1 de maio de 2025"
+                }
+            ];
+            
+            // Adicionar mais notícias relacionadas (simulação)
+            function loadMoreRelated() {
+                relatedNews.forEach(news => {
+                    const article = document.createElement('article');
+                    article.className = 'related-card';
+                    article.innerHTML = `
+                        <img src="${news.image}" alt="${news.title}" class="related-image">
+                        <div class="related-content">
+                            <h3 class="related-title">${news.title}</h3>
+                            <p class="related-excerpt">${news.excerpt}</p>
+                            <div class="related-meta">${news.date}</div>
+                        </div>
+                    `;
+                    relatedGrid.appendChild(article);
+                });
+            }
+            
+            // Simular rolagem infinita
+            window.addEventListener('scroll', function() {
+                if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
+                    loadMoreRelated();
+                    // Remover o event listener após carregar para evitar loop infinito neste exemplo
+                    window.removeEventListener('scroll', arguments.callee);
+                }
+            });
+            
+            // Newsletter
+            const newsletterForm = document.querySelector('.newsletter form');
+            newsletterForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const email = this.querySelector('input').value;
+                
+                // Validação simples
+                if (email && email.includes('@')) {
+                    alert('Obrigado por assinar nossa newsletter! Um e-mail de confirmação foi enviado.');
+                    this.querySelector('input').value = '';
+                } else {
+                    alert('Por favor, insira um e-mail válido.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

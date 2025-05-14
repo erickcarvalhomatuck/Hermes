@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícia - Hermes News</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="hermeslogo.png" alt="Hermes News Logo">
+                <h1>HERMES <span>NEWS</span></h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Política</a></li>
+                    <li><a href="index.html">Economia</a></li>
+                    <li><a href="index.html">Tecnologia</a></li>
+                    <li><a href="index.html">Cultura</a></li>
+                    <li><a href="index.html">Esportes</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <button class="subscribe-btn">Assine</button>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article class="news-article" id="article-container">
+            <!-- Conteúdo será carregado via JavaScript -->
+            <div class="loading-spinner">
+                <i class="fas fa-spinner fa-spin"></i>
+                <p>Carregando notícia...</p>
+            </div>
+        </article>
+
+        <section class="related-news">
+            <h2 class="section-title">Notícias Relacionadas</h2>
+            <div class="related-grid" id="related-news-container">
+                <!-- Conteúdo será carregado via JavaScript -->
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-container">
+                <h2>Receba as notícias diretamente</h2>
+                <p>Assine nossa newsletter e fique atualizado com as principais notícias</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit">Assinar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="hermeslogobranco.png" alt="Hermes News Logo">
+                <h2>HERMES <span>NEWS</span></h2>
+                <p>Notícias rápidas e confiáveis, como as asas de Hermes.</p>
+            </div>
+            <div class="footer-links">
+                <div class="links-column">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li><a href="#">Política</a></li>
+                        <li><a href="#">Economia</a></li>
+                        <li><a href="#">Tecnologia</a></li>
+                        <li><a href="#">Cultura</a></li>
+                        <li><a href="#">Esportes</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <h3>Sobre</h3>
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Nossa equipe</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Trabalhe conosco</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Hermes News. Todos os direitos reservados.</p>
+            <div class="legal-links">
+                <a href="#">Termos de uso</a>
+                <a href="#">Política de privacidade</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>        
+        <!-- Rodapé igual ao da index.html -->
+    </footer>
+
+    <script src="scriptnoticia.js"></script>
+</body>
+</html>

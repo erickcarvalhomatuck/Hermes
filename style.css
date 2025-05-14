@@ -593,6 +593,16 @@ a {
 }
 
 @media (max-width: 768px) {
+    .ad-container {
+        justify-content: center;
+    }
+    
+    .ad-card {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
     .header-container {
         padding: 1rem;
     }
@@ -964,13 +974,4 @@ a {
     display: none;
 }
 
-@media (max-width: 768px) {
-    .ad-container {
-        justify-content: center;
-    }
-    
-    .ad-card {
-        width: 100%;
-        max-width: 400px;
-    }
-}
+

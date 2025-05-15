@@ -73,9 +73,13 @@
                 <div class="contact-form">
                     <h3>Envie sua mensagem</h3>
                     <form action="https://formsubmit.co/coretdps@gmail.com" method="POST">
+                        <!-- Campos ocultos importantes -->
+                        <input type="hidden" name="_next" value="https://hermesnews.netlify.app/thank-you-menssage.html">
                         <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_next" value="thank-you-mensage.html">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_subject" value="Novo contato do Hermes News">
                         
+                        <!-- Campos do formulário -->
                         <div class="form-group">
                             <label for="name">Nome Completo</label>
                             <input type="text" id="name" name="name" required>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigo - Hermes News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="article-container">
+        <div id="article-loading">
+            <i class="fas fa-spinner fa-spin"></i> Carregando artigo...
+        </div>
+    </div>
+
+    <script type="module">
+        import { articleService } from 'firebase-db.js';
+        
+        const urlParams = new URLSearchParams(window.location.search);
+        const articleId = urlParams.get('id');
+        
+        async function loadArticle() {
+            if (!articleId) return;
+            
+            try {
+                const article = await articleService.getArticleById(articleId);
+                if (article) {
+                    document.getElementById('article-container').innerHTML = `
+                        <article class="full-article">
+                            <h1>${article.title}</h1>
+                            <div class="meta">
+                                <span class="date">
+                                    ${new Date(article.createdAt).toLocaleDateString('pt-BR')}
+                                </span>
+                            </div>
+                            <img src="${article.image || 'images/default.jpg'}" alt="${article.title}">
+                            <div class="article-content">${article.content}</div>
+                        </article>
+                    `;
+                } else {
+                    document.getElementById('article-container').innerHTML = 'Artigo não encontrado';
+                }
+            } catch (error) {
+                console.error('Erro ao carregar artigo:', error);
+                document.getElementById('article-container').innerHTML = 'Erro ao carregar artigo';
+            }
+        }
+        
+        loadArticle();
+    </script>
+</body>
+</html>

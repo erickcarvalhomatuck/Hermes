@@ -1,5 +1,5 @@
-import { logout, onAuthChange } from 'auth.js';
-import { articleService } from 'firebase-db.js';
+import { logout, onAuthChange } from './auth.js';
+import { articleService } from './firebase-db.js';
 
 // Configuração do TinyMCE
 let editor;

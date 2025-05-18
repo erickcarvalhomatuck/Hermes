@@ -15,7 +15,7 @@ import {
   where,
   getDocs
 } from "https://www.gstatic.com/firebasejs/11.7.3/firebase-firestore.js";
-import { app } from "firebase-init.js";
+import { app } from "./firebase-init.js";
 
 const auth = getAuth(app);
 const db = getFirestore(app);

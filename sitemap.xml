@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Páginas principais -->
+    <url>
+        <loc>https://hermesnews.netlify.app/</loc>
+        <lastmod>2025-05-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://hermesnews.netlify.app/esportes/index.html</loc>
+        <lastmod>2025-05-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hermesnews.netlify.app/esportes/login.html</loc>
+        <lastmod>2025-05-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hermesnews.netlify.app/esportes/admin.html</loc>
+        <lastmod>2025-05-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Páginas legais -->
+    <url>
+        <loc>https://hermesnews.netlify.app/politica-de-privacidade.html</loc>
+        <lastmod>2025-05-19</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://hermesnews.netlify.app/termos-de-uso.html</loc>
+        <lastmod>2025-05-19</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://hermesnews.netlify.app/contatohermes.html</loc>
+        <lastmod>2025-05-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Categorias -->
+    <url>
+        <loc>https://hermesnews.netlify.app/index.html?categoria=politica</loc>
+        <lastmod>2025-05-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hermesnews.netlify.app/index.html?categoria=economia</loc>
+        <lastmod>2025-05-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hermesnews.netlify.app/index.html?categoria=tecnologia</loc>
+        <lastmod>2025-05-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hermesnews.netlify.app/index.html?categoria=cultura</loc>
+        <lastmod>2025-05-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hermesnews.netlify.app/index.html?categoria=esportes</loc>
+        <lastmod>2025-05-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Artigos (exemplos - adicione os seus) -->
+    <url>
+        <loc>https://hermesnews.netlify.app/esportes/article.html?id=1</loc>
+        <lastmod>2025-05-18</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://hermesnews.netlify.app/esportes/article.html?id=2</loc>
+        <lastmod>2025-05-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

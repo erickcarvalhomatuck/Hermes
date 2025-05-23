@@ -55,7 +55,7 @@ const uploadImage = async (file, filename) => {
   formData.append('upload_preset', 'hermes_upload');
 
   try {
-    const response = await fetch('https://api.cloudinary.com/v1_1/hermesnews-9352c/image/upload', {
+    const response = await fetch('https://api.cloudinary.com/v1_1/dv5fajwwl/image/upload', {
       method: 'POST',
       body: formData
     });
